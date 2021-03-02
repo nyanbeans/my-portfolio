@@ -1,0 +1,134 @@
+
+#nav-ul{
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: row;
+    background-color: #000;
+    margin: 0;
+    z-index: 99;
+    width: 100%;
+}
+
+.navigation-list-item{
+    line-height: 1rem;
+    list-style: none;
+    text-decoration: none;
+    color: $body_font_colour;
+    border-radius: 1.5rem;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fas {
+    background-color: none;
+    border-radius: 1.5rem;
+    padding: 0.55rem 0.8rem 0rem 0.8rem;
+    margin: 0px 15px;
+    transition: 0.3s;
+    width: 45px;
+    height: 25px;
+    color: $main_alt_font_colour;
+    &:hover{
+        color: $main_alt_font_colour;
+        cursor: pointer;
+    }
+}
+
+.nav-name{
+    color: $main_alt_font_colour;
+    font-size: 0.65rem;
+    text-decoration: none;
+    margin: 0px 0px 3px 0px;
+    text-align: center;
+}
+
+@media(min-width: 780px){
+    #nav-ul{
+        position: fixed;
+        top: 55%;
+        left: 91%;
+        width: 45px;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+    }
+
+    .navigation-list-item{
+        margin: 15px 15px;
+        &:hover{
+            background-color: $main_font_colour;
+            color: $main_alt_font_colour;
+        }
+    }
+
+    .fas{
+        border: solid 1px $body_font_colour;
+        color: $main_font_colour;
+        background-color: $main_alt_font_colour;
+        padding: 0.8rem;
+        height: 45px;
+        &:hover {
+            background-color: $main_font_colour;
+            color: $main_alt_font_colour;
+        }
+    }
+
+    .nav-name{
+        display: none;
+    }
+
+    .nav-line{
+        width: 250px;
+        height: 1px;
+        background-color: $main_font_colour;
+        position: fixed;
+        transform: rotate(90deg);
+        top: 28%;
+        left: -63px;
+        z-index: -1;
+    }
+}
+
+@media(min-width: 800px){
+    #nav-ul{
+        left: 89%;
+    }
+}
+
+@media(min-width: 880px){
+    #nav-ul{
+        left: 91.40%;
+    }
+}
+
+@media(min-width: 1100px){
+    #nav-ul{
+        left: 92.5%;
+    }
+}
+
+@media(min-width: 1230px){
+    #nav-ul{
+        left: 92%;
+    }
+}
+
+@media(min-width: 1330px){
+    #nav-ul{
+        left: 90%;
+    }
+}
+
+@media (min-width: 1550px){
+    #nav-ul{
+        right: 40px;
+    }
+}

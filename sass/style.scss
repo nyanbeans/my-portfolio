@@ -1,0 +1,23 @@
+// reset
+@import "reset";
+
+// elements
+@import "variables";
+@import "links.scss";
+@import "typography";
+
+// specific sections
+@import "headings";
+@import "nav";
+@import "layouts";
+@import "works";
+@import "single";
+@import "contact";
+@import "footer";
+
+// mixins
+@import "mixins";
+
+//glide js
+@import "glide.core";
+@import "glide.theme";

@@ -1,0 +1,27 @@
+//main colours
+$main_font_colour: #1e1c1c;
+$main_alt_font_colour: #fff;
+$body_font_colour: #423e3e;
+$accent_colour: #ca2b2f;
+$main_background_colour: #000;
+
+//fonts
+@import url(https://fonts.googleapis.com/css2?family=Song+Myung&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Gothic+A1&display=swap);
+
+$heading_font: 'Song Myung', serif;
+$subheading_font: 'Roboto Slab', serif;
+$sub_subheading_font: 'Gothic A1', sans-serif;
+$body_font: 'Roboto Slab', serif;
+
+//glide js
+$glide-class: 'glide' !default;
+$glide-element-separator: '__' !default;
+$glide-modifier-separator: '--' !default;
+
+
+//notes
+/*
+1em = 16px
+*/

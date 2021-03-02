@@ -1,0 +1,23 @@
+.work-duration,
+.work-tools,
+.single-work-description{
+    font-family: $sub_subheading_font;
+}
+
+.work-description,
+.single-work-duration,
+.single-work-tools{
+    font-family: $body_font;
+}
+
+.click-instruction{
+    font-family: $sub_subheading_font;
+    font-style: italic;
+    font-size: 0.8rem;
+    margin-bottom: 25px;
+}
+
+ol,
+ul{
+    font-family: $sub_subheading_font;
+}

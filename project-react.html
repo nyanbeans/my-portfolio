@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SFCNF99D3K"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-SFCNF99D3K');
+    </script>
+    <!-- meta info -->
+    <meta name="Description" content="I'm a Vancouver-based web developer and 
+    designer who focuses on designing simple but highly function web 
+    experiences.">
+	<title>Skye Yang | Web Developer and Designer Portfolio</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">   
+    <!-- stylesheets -->
+    <link	rel="stylesheet" href="style.css">
+    <link   rel="stylesheet" href="lightbox.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/f943d4ea3a.js" crossorigin="anonymous"></script>
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
+</head>
+
+<body class="single-project-page">
+<div class="wrapper">
+
+<header>
+    <div class="return-to-works">
+        <a href="/#works" class="return">
+            <div class="left-arrow">
+                <span></span>
+            </div>
+        </a>
+        <a href="/#works" class="project-return-link" id="react-top">Return to Works</a>
+    </div>
+</header>
+
+<main>
+<!-- navigation -->
+    <nav>
+        <ul id="nav-ul">
+            <li class="navigation-list-item">
+            <a aria-label="Go to home page" class="navlink" href="/#home"><i class="fas fa-home"></i><p class="nav-name">Home</p></a>
+            </li>
+            <li class="navigation-list-item">
+            <a aria-label="Go to featured projects section" class="navlink" href="/#works"><i class="fas fa-code"></i><p class="nav-name">Projects</p></a>
+            </li>
+            <li class="navigation-list-item">
+            <a aria-label="Go to contact section" class="navlink" href="/#contact"><i class="fas fa-envelope"></i><p class="nav-name">Contact</p></a>
+            </li>
+            <div class="nav-line" aria-hidden="true"></div>
+        </ul>
+    </nav>
+<!-- content -->
+    <h1 tabindex="0" class="single-project-name">Watcher</h1>
+    <img src="images/responsive_showcase_watcher.jpg" class="single-project-banner" alt="responsive web showcase for Watcher">
+
+    <section class="single-project-description">
+        <h2 tabindex="0" class="single-sub-header">ReactJS Web Application</h2>
+        <p class="single-work-duration">6 Weeks</p>
+        <p class="single-work-tools">Adobe Photoshop, ReactJS, SASS, GitHub</p>
+        <p class="single-work-description">
+            Watcher is a movie listing web application that lets users browse 
+            and keep track of the movies they love, featuring a sleek UI for
+            quick at-a-glance information and the ability to browse by popularity, 
+            ratings, currently playing, and upcoming. It utilizes The Movie Database 
+            API to display user ratings, release date, and plot summaries.
+        </p>
+        <p class="single-work-duration">Team: Matt Hildebrand, Skye Yang</p>
+        <p class="single-work-tools">Role: UI Designer and Developer, Debugger</p>
+    </section>
+
+    <div class="cta-group">
+        <a class="cta-live" href="https://github.com/nyanbeans" target="_blank">View Live</a>
+        <a class="cta-live" href="https://github.com/hildebrandmatt/moviedbproject" target="_blank">View GitHub</a>
+    </div>
+
+    <section class="process">
+        <h2 tabindex="0" class="single-sub-header">Process</h2>
+        <h4 tabindex="0" class="single-sub-subheader">Planning</h4>
+        <p class="single-work-description">
+            Our approach going into this project was divided by roles, which 
+            overlapped whenever more assistance was needed for any specific 
+            tasks. For this project, I handled the UI design and development, 
+            as well as some asset creation and debugging. I also put together 
+            the app structure to be output in JSX.
+        </p>
+        <p class="single-work-description">
+            The mockups were created mobile-first, followed by desktop versions 
+            with the following requirements in mind:
+        </p>
+        <ol class="process-list">
+            <li>Four pages: Home, About, individual movie, Favourites</li>
+            <li>Browse by: Popular, Top Rated, Now Playing, Upcoming</li>
+            <li>A button or UI element that allows users to 'favourite' movies</li>
+            <li>Responsive between 320px to 1980px.</li>
+        </ol>
+        
+        <p class="single-work-description">
+            I approached the design with a mind of keeping the interface clean 
+            and uncluttered, opting to display only the movie poster, title, 
+            release date, and rating for each movie on the home and favourites 
+            pages. Hovering over each poster with a cursor on desktop or pressing
+            the movie poster on mobile would display an 
+            excerpt from the summary of the movie, with a "more info" button 
+            that takes the user to a page that displays more of the movie's 
+            information.
+        </p>
+
+        <div class="lightbox-gallery">
+            <a href="images/mockups_desktop_watcher_lightbox.jpg" data-lightbox="watcher-showcase" data-title="Desktop mockups for Watcher"><img src="./images/mockups_desktop_watcher_lightbox_preview.jpg" class="single-project-images" alt="desktop mockups for Watcher"></a>
+            <a href="images/mockups_mobile_watcher_lightbox.jpg" data-lightbox="watcher-showcase" data-title="Mobile mockups for Watcher">
+                <picture>
+                    <source media="(min-width: 600px)" srcset="./images/mockups_mobile_watcher_lightbox_preview.jpg" class="single-project-images" alt="mobile mockups for Watcher">
+                    <img src="./images/mockups_mobile_watcher_lightbox_preview_2.jpg" class="single-project-images" alt="mobile mockups for Watcher">
+                </picture>
+                <a href="images/mockups_desktop_watcher_hover_lightbox.jpg" data-lightbox="watcher-showcase" data-title="Usage of Photoshop folder groups to show a UI change with user interaction."><img src="./images/mockups_desktop_watcher_hover_lightbox_preview.jpg" class="single-project-big-images" alt="desktop hover mockup for Watcher"></a>
+            </a>
+        </div>
+        <p class="click-instruction">Click images to enlarge.</p>
+
+        <p class="single-work-description">
+            The mockups were created with Photoshop and make use of folder groups 
+            to show UI changes with various user interactions.
+        </p>
+
+        <h4 tabindex="0" class="single-sub-subheader">Development</h4>
+        <p class="single-work-description">
+            With the mockups complete, my teammate and I divided the workload 
+            and began work on the development of the app itself. 
+        </p>
+        <p class="single-work-description">
+            I started off with setting up the app structure, then turned them over to 
+            my teammate once I'd finished with them. From here on, I worked on 
+            styling the app's UI while my teammate worked on pulling in the data 
+            dynamically. This was decided with the thought that it would reduce the 
+            chances of code conflicts happening.
+        </p>
+        <p class="single-work-description">
+            The final product differed a little from my mockups, as small changes 
+            were made to improve usability during the development process.
+        </p>
+    </section>
+
+    <section class="challenges">
+        <h2 tabindex="0" class="single-sub-header">Challenges and Takeaways</h2>
+        
+        <p class="single-work-description">
+            This was a project where communication was critical and 
+            contributed greatly to the successful development of our 
+            app. While I had done my best to set up the app structure 
+            properly from the start, there were a few times where I had 
+            to go back and edit a div or a class. Due to the ongoing 
+            Covid-19 pandemic, we could not work together in person. 
+            Instead, we set up online meetings to communicate through,  
+            giving a heads up whenever there was a need to change the 
+            code on what the other was working on.
+        </p>
+        <p class="single-work-description">
+            There were also some differences between the mockups and 
+            the final product. These changes were made during the 
+            development process, when usability issues came up and 
+            needed to be resolved. For instance:
+        </p>
+        <p class="single-work-description">
+            The button to add a movie to favourites was only accessible 
+            when hovering the cursor over the poster. This was changed 
+            to be accessible without having to hover so keyboard and 
+            mobile users can access it easily. A link to the individual 
+            movie pages was also added to the movie titles upon realizing 
+            not all users would know to hover or press on the movie poster 
+            for more information. 
+        </p>
+        <h4 tabindex="0" class="single-sub-subheader">Takeaways</h4>
+        <p class="single-work-description">
+            The key takeaway from this project is to keep communication 
+            as a top priority- I'm certain it would not have gone as 
+            smoothly if we hadn't taken the extra steps to make sure 
+            we always knew what we were working on. 
+        </p>
+        <p class="single-work-description">
+            Being quick to come up with solutions and ready to make changes to 
+            code after user testing is also still very important; 
+            even if revisions to mockups were made and approval was solid, what 
+            looks good visually isn't necessarily the best functionally.
+        </p>
+    </section>
+
+
+</main>
+ 
+<footer>
+    <h2 class="single-sub-header">Want to work together?</h2>
+    <a class="single-cta-contact" href="mailto:hello@skyeyang.ca">Get in touch with me</a>
+    <a class="single-cta-works" href="/#works">See more of my work</a>
+    <a aria-label="LinkedIn link" class="social-link" href="https://www.linkedin.com/in/skye-yang-9174a611b/"><i class="fab fa-linkedin-in"></i></a>
+    <a aria-label="GitHub link" class="social-link" href="https://github.com/nyanbeans"><i class="fab fa-github"></i></a>    <a href="#react-top" class="single-return-top">Return to top</a>
+    <p class="bottom-text">© 2021 | Skye Yang</p>
+</footer>
+
+</div>
+
+<!-- scripts -->
+<script src="./scripts/script.js"></script>
+<script src="./scripts/lightbox.js"></script>
+</body>
+</html>

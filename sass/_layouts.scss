@@ -1,0 +1,110 @@
+.wrapper{
+    margin: auto;
+    width: 100%
+}
+
+.landing-section{
+    height: 100vh;
+}
+
+.landing-intro{
+    position: relative;
+    top: 5%;
+    left: 16%;
+    max-width: 210px;
+}
+
+.hello-intro{
+    font-family: $subheading_font;
+    font-size: 0.9rem;
+}
+
+.my-tools{
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-weight: bold;
+}
+
+.tools-design{
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.tools-dev{
+    margin-top: 0px;
+}
+
+.my-tools,
+.tools-design,
+.tools-dev {
+    font-family: $subheading_font;
+    font-size: 0.8rem;
+}
+
+.bottom-text{
+    font-family: $subheading_font;
+    font-size: 0.8rem;
+    margin-top: 25px;
+}
+
+@media (min-width: 560px){
+    .hello-intro{
+        font-size: 1.15rem;
+    }
+
+    .landing-intro{
+        max-width: 260px;
+    }
+
+    .my-tools{
+        margin-top: 50px;
+    }
+    
+}
+
+@media (min-width: 900px){
+
+    .hello-intro{
+        font-size: 1.15rem;
+    }
+    
+    .landing-intro{
+        max-width: 400px;
+        top: 20%;
+        left: 18%;
+        h3{
+            margin-top: 0;
+            margin-bottom: 30px;
+        }
+    }
+
+    .my-tools{
+        margin-top: 140px;
+    }
+
+}
+
+
+@media (min-width: 1110px){
+    .landing-intro{
+        left: 12%;
+    }
+}
+
+@media (min-width: 1200px){
+    .landing-intro{
+        left: 10%;
+    }
+}
+
+@media (min-width: 1300px){
+    .landing-intro{
+        left: 8%;
+    }
+}
+
+@media (min-width: 1400px){
+    .landing-intro{
+        left: 0;
+    }
+}

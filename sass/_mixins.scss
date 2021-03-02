@@ -1,0 +1,25 @@
+@mixin cta{
+    display: block;
+    width: 49%;
+    text-decoration: none;
+    font-family: $sub_subheading_font;
+    background-color: $main_font_colour;
+    color: $main_alt_font_colour;
+    border: solid 1px $main_font_colour;
+    padding: 0.8rem;
+    transition: 0.3s;
+}
+
+@mixin hover-white{
+    &:hover{
+        background-color: $main_alt_font_colour;
+        color: $main_font_colour;
+    }
+}
+
+@mixin hover-black{
+    &:hover{
+        background-color: $main_font_colour;
+        color: $main_alt_font_colour;
+    }
+}

@@ -1,0 +1,132 @@
+//styling for the work section of home page
+
+.work-text-field{
+    background-color: $main_background_colour;
+    color: $main_alt_font_colour;
+    line-height: 1.45rem;
+    padding: 15px 30px 45px 30px;
+}
+
+.work-item{
+    padding: 40px 12px;
+}
+
+.work-duration{
+    margin-bottom: 0px;
+}
+
+.work-tools{
+    margin: 2px 0px 25px 0px;
+
+}
+
+.work-description{
+    margin-bottom: 40px;
+}
+
+.work-preview-image{
+    padding-top: 50px;
+}
+
+.works-section{
+    max-width: 550px;
+    margin: auto;
+    h2{
+    padding-top: 70px;
+    text-align: center;
+    }
+}
+
+@media (min-width: 550px){
+    .works-section{
+        margin: 0px 30px;
+    }
+}
+
+@media (min-width: 650px){
+    .works-section{
+        margin: auto;
+    }
+
+    .work-text-field{
+        padding: 30px 50px 55px 40px;
+    }
+}
+
+@media (min-width: 880px){
+
+    .work-preview-image{
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .work-description{
+        margin-bottom: 50px;
+    }
+
+    .glide{
+        border: none;
+        max-width: 500px;
+        margin: auto;
+    }
+}
+
+@media (min-width: 900px){
+    .works-section{
+        left: 18%;
+        max-width: 650px;
+        margin: auto;
+    }
+
+    .glide{
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 1100px){
+
+    .work-item{
+        display: flex;
+        justify-content: space-around;
+        margin: auto;
+        margin-top: 80px;
+        padding: 0px;
+        flex-direction: row-reverse;
+        border: solid 1px $main_font_colour;
+    }
+
+    .work-text-field{
+        width: 35%;
+    }
+
+    .works-section{
+        max-width: 79.5%;
+        margin-left: 12%;
+        h2{
+            text-align: left;
+        }
+    }
+    
+}
+
+@media (min-width: 1200px){
+    .works-section{
+        max-width: 85%;
+        margin-left: 8%;
+    }
+}
+
+@media (min-width: 1400px){
+    .works-section{
+        max-width: 100%; 
+        margin-left: 0;
+    }
+
+    .work-text-field{
+        padding: 30px 40px 30px 40px;
+    }
+
+    .glide{
+        max-width: 600px;
+    }
+}
