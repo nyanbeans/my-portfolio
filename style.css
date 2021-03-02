@@ -286,7 +286,7 @@ img {
 .work-description,
 .single-work-duration,
 .single-work-tools {
-	font-family: "Roboto Slab", serif;
+	font-family: "Gothic A1", sans-serif;
 }
 
 .click-instruction {
@@ -319,15 +319,10 @@ h1 {
 
 h2 {
 	font-size: 2.5rem;
-	font-family: "Roboto Slab", serif;
+	font-family: "Song Myung", serif;
 }
 
 h3 {
-	font-size: 1.5rem;
-	font-family: "Gothic A1", sans-serif;
-}
-
-h4 {
 	font-size: 1.2rem;
 	font-family: "Roboto Slab", serif;
 	margin-top: 20px;
@@ -400,7 +395,7 @@ a {
 
 .nav-name {
 	color: #fff;
-	font-size: 0.65rem;
+	font-size: 0.7rem;
 	text-decoration: none;
 	margin: 0px 0px 3px 0px;
 	text-align: center;
@@ -497,6 +492,9 @@ a {
 	top: 5%;
 	left: 16%;
 	max-width: 210px;
+}
+.landing-intro h3 {
+	font-family: "Gothic A1", sans-serif;
 }
 
 .hello-intro {
@@ -605,6 +603,7 @@ a {
 
 .work-description {
 	margin-bottom: 40px;
+	font-family: "Roboto Slab", serif;
 }
 
 .work-preview-image {
@@ -738,10 +737,12 @@ header {
 }
 
 .single-work-duration {
+	font-family: "Roboto Slab", serif;
 	margin-bottom: 0;
 }
 
 .single-work-tools {
+	font-family: "Roboto Slab", serif;
 	margin-top: 2px;
 }
 
