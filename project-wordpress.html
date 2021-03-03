@@ -14,7 +14,8 @@
     <!-- meta info -->
     <meta name="Description" content="I'm a Vancouver-based web developer and 
     designer who focuses on designing simple but highly function web 
-    experiences.">
+    experiences. This page features a project where I collaborated with 
+    a development team to build a fully custom WordPress theme.">
 	<title>Skye Yang | Web Developer and Designer Portfolio</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">   
     <!-- stylesheets -->
@@ -32,18 +33,14 @@
 <div class="wrapper">
 
 <header>
-    <div class="return-to-works">
-        <a href="/#works" class="return">
-            <div class="left-arrow">
-                <span></span>
-            </div>
-        </a>
-        <a href="/#works" class="project-return-link">Return to Works</a>
+    <a class="skip-link" href='#primary'>Skip to content</a>
+    <div class="return-to-works" id="brochure-top">
+        <div class="left-arrow">
+            <span></span>
+        </div>
+        <a href="/#works" class="project-return-link" tabindex="3">Return to Works</a>
     </div>
-</header>
-
-<main>
-<!-- navigation -->
+    <!-- navigation -->
     <nav>
         <ul id="nav-ul">
             <li class="navigation-list-item">
@@ -58,9 +55,13 @@
             <div class="nav-line" aria-hidden="true"></div>
         </ul>
     </nav>
+</header>
+
+<main id="primary" tabindex="-1">
+
 <!-- content -->
-    <h1 class="single-project-name" id="brochure-top">Lily Woods Photography</h1>
-    <img src="images/responsive_showcase_tuxedo_cat.jpg" class="single-project-banner" alt="responsive web showcase for The Tuxedo Cat">
+    <h1 class="single-project-name" >Lily Woods Photography</h1>
+    <img src="images/responsive_showcase_lily.jpg" class="single-project-banner" alt="responsive web showcase for The Tuxedo Cat">
 
     <section class="single-project-description">
         <h2 tabindex="0" class="single-sub-header">Photography Portfolio</h2>
@@ -72,8 +73,8 @@
             theme and includes custom post types, custom fields, taxonomies, 
             and styles. 
         </p>
-        <p class="single-work-duration">Team: Chris Kim, Matt Hildebrand, Skye Yang</p>
-        <p class="single-work-tools">Role: Content and Development Planner, UI Developer, Front-End Developer</p>
+        <p class="single-work-duration">Team: Chris Kim, <a class="team-link" href="https://mdhildebrand.com" target="_blank">Matt Hildebrand</a>, Skye Yang</p>
+        <p class="single-work-tools">Role: Content and Development Planner, UI Designer, Front-End Developer</p>
     </section>
 
     <div class="cta-group">
@@ -83,7 +84,7 @@
 
     <section class="process">
         <h2 tabindex="0" class="single-sub-header">Process</h2>
-        <h3 tabindex="0" class="single-sub-subheader">Planning</h3>
+        <h3 class="single-sub-subheader">Planning</h3>
         <p class="single-work-description">
             The main goal for this project was to create a website that 
             advertises and sells a wedding photographer's services while 
@@ -109,7 +110,7 @@
             After receiving the initial project brief from the client, 
             my team and I prepared several questions to clarify requirements 
             and better understand their goals. Notes were taken during the 
-            meeting and referred to when creating the Memo of Understanding.
+            meeting and referred to while creating the Memo of Understanding.
         </p>
         <p class="single-work-description">
             The Memo of Understanding served as a contract for the client:
@@ -128,46 +129,65 @@
             <li>A list of development plugins to install and configure</li>
             <li>Custom post types to be created, complete with configuration info</li>
             <li>Custom taxonomies to be created, complete with configuration info</li>
-            <li>Content storage- Advanced Custom Fields</li>
+            <li>Content storage- Advanced Custom Fields (ACF)</li>
             <li>Wireframes that also showed which PHP files to use on each page</li>
         </ul>
         <p class="single-work-description">
             After finishing the plan, I created a simple style tile to guide the 
-            look of the site and subsequently some mockups of the site.
+            look of the site. I then created mockups based off the wireframes and 
+            style tile.
         </p>
 
         <div class="lightbox-gallery">
-            <a href="images/mockups_mobile_tuxedo_lightbox.jpg" data-lightbox="tuxedo-showcase" data-title="Mobile mockups for The Tuxedo Cat"><img src="./images/mockups_mobile_tuxedo_lightbox_preview.jpg" class="single-project-images" alt="mobile mockups for The Tuxedo Cat"></a>
-            <a href="images/mockups_desktop_showcase_lightbox.jpg" data-lightbox="tuxedo-showcase" data-title="Desktop mockups for The Tuxedo Cat"><img src="./images/mockups_desktop_showcase_lightbox_preview.jpg" class="single-project-images" alt="desktop mockups for The Tuxedo Cat"></a>
+            <a href="images/lightbox_lily_styletile.jpg" data-lightbox="wordpress-showcase-design" data-title="Desktop mockups for Lily Woods Photography"><img src="images/lightbox_lily_styletile.jpg" alt="style tile for Lily Woods Photography"></a>
+            <a href="images/mockups_desktop_showcase_lily_lightbox_1.jpg" data-lightbox="wordpress-showcase-design" data-title="Desktop mockups for Lily Woods Photography"><img src="images/mockups_desktop_showcase_lily_lightbox_1_preview.jpg" class="single-project-images wordpress-preview" alt="desktop mockups for Lily Woods Photography"></a>
+            <a href="images/mockups_desktop_showcase_lily_lightbox_2.jpg" data-lightbox="wordpress-showcase-design" data-title="Desktop mockups for Lily Woods Photography"><img src="images/mockups_desktop_showcase_lily_lightbox_2_preview.jpg" class="single-project-images wordpress-preview" alt="desktop mockups for Lily Woods Photography"></a>
         </div>
         <p class="click-instruction">Click images to enlarge.</p>
 
         <h3 tabindex="0" class="single-sub-subheader">Development</h3>
         <p class="single-work-description">
-            With our development plan completed and mockups in hand, we finally 
-            moved onto development of the site itself. 
+            With our development plan completed and mockups in hand, 
+            we finally moved onto development of the site itself. I took 
+            charge of setting up the needed PHP files, as well as registering 
+            our custom post types, custom taxonomies, and ACFS.
+        </p>
+        <p class="single-work-description"> 
+            My team then divided the tasks and began work. I focused on 
+            asset creation and design tweaks while my team mates focused 
+            on putting in content and writing code to output it. We would 
+            meet every day and debrief on progress, helping each other 
+            out with their tasks if needed.
         </p>
         <p class="single-work-description">
-            I took charge of setting up the HTML structure for all the pages and 
-            styling for half of them, while my team member was tasked with 
-            styling the other half of the pages and JavaScript, as well as 
-            the mobile navigation. GitHub was our platform of choice for 
-            collaboration and version control.
+            Work with styling began after all content was successfully 
+            outputted. Once I set up the necessary Sass variables, my 
+            team split the styling workload by page.
         </p>
     </section>
 
     <section class="challenges">
-        <h2 tabindex="0" class="single-sub-header">Challenges and Takeaways</h2>
+        <h2 tabindex="0" class="single-sub-header">Project Takeaways</h2>
         
         <p class="single-work-description">
-            
+            As with most collaborative projects, communication and team work 
+            was key to our ability to stay on track and work efficiently. We 
+            were able to settle into a work routine that worked for all team members:
+            our daily morning check-ins ensured we were able to help each other 
+            if needed and working together over Zoom call allowed us to communicate 
+            any changes that were necessary immediately. This meant we spent very 
+            little time stuck on issues and were able to keep up to pace with 
+            our schedule.
         </p>
-        <h3 tabindex="0" class="single-sub-subheader">Takeaways</h3>
         <p class="single-work-description">
-
+            Having a solid and thorough development plan also played a large 
+            role in streamlining our process. It took some time to put together, 
+            but the result was a clearly laid-out and reliable plan we could 
+            refer to at any point during the development process. This saved 
+            us a lot of back-and-forth and was absolutely integral to our 
+            process, and is something I will refer back to in future projects.
         </p>
     </section>
-
 
 </main>
  
@@ -185,5 +205,6 @@
 <!-- scripts -->
 <script src="./scripts/script.js"></script>
 <script src="./scripts/lightbox.js"></script>
+
 </body>
 </html>

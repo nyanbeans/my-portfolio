@@ -182,6 +182,13 @@ img {
 	display: none;
 }
 
+.team-link {
+	color: #1e1c1c;
+}
+.team-link:hover {
+	color: #ca2b2f;
+}
+
 @media (min-height: 600px) {
 	.scroll-text {
 		display: block;
@@ -222,6 +229,25 @@ img {
 	border-bottom-color: #1e1c1c;
 	-webkit-animation: arrow-animation-left 1.5s infinite;
 	        animation: arrow-animation-left 1.5s infinite;
+}
+
+.skip-link {
+	font-family: "Gothic A1", sans-serif;
+	color: #1e1c1c;
+	border: solid 1px #1e1c1c;
+	left: 175px;
+	padding: 4px;
+	position: absolute;
+	transform: translateY(-100%);
+}
+
+.skip-link:focus {
+	transform: translateY(0%);
+	top: 25px;
+}
+
+#primary:focus {
+	outline: 0;
 }
 
 @-webkit-keyframes arrow-animation {
@@ -554,6 +580,7 @@ a {
 		left: 18%;
 	}
 	.landing-intro h3 {
+		font-size: 1.5rem;
 		margin-top: 0;
 		margin-bottom: 30px;
 	}

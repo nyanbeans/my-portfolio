@@ -110,6 +110,13 @@
     display: none;
 }
 
+.team-link{
+    color: $main_font_colour;
+    &:hover{
+        color: $accent_colour;
+    }
+}
+
 @media (min-height: 600px){
 
     .scroll-text{
@@ -152,6 +159,26 @@
     border-bottom-color: $main_font_colour;
     animation: arrow-animation-left 1.5s infinite;
 }
+
+.skip-link {
+    font-family: $body_font;
+    color: $main_font_colour;
+    border: solid 1px $main_font_colour;
+    left: 175px;
+    padding: 4px;
+    position: absolute;
+    transform: translateY(-100%);
+  }
+  
+  .skip-link:focus {
+    transform: translateY(0%);
+    top: 25px;
+  }
+
+#primary:focus{
+    outline: 0;
+}
+  
 
 @keyframes arrow-animation {
     0% {

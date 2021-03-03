@@ -1,0 +1,7 @@
+# robots.txt for https://skyeyang.ca/
+
+User-agent: *
+
+
+Disallow: /the-tuxedo-cat/
+# not an existing business

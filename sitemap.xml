@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://skyeyang.ca/</loc>
+  <lastmod>2021-02-19T09:24:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/project-brochure</loc>
+  <lastmod>2021-03-03T08:59:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/project-react</loc>
+  <lastmod>2021-03-03T08:59:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/project-wordpress</loc>
+  <lastmod>2021-03-03T08:58:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/project-portfolio</loc>
+  <lastmod>2021-03-03T08:59:05+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/the-tuxedo-cat/</loc>
+  <lastmod>2021-03-03T09:01:02+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/watcher/</loc>
+  <lastmod>2021-03-03T09:03:14+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/the-tuxedo-cat/about.html</loc>
+  <lastmod>2021-03-03T09:01:01+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/the-tuxedo-cat/menu.html</loc>
+  <lastmod>2021-03-03T09:01:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/the-tuxedo-cat/reservation.html</loc>
+  <lastmod>2021-03-03T09:01:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/the-tuxedo-cat/meet_the_cats.html</loc>
+  <lastmod>2021-03-03T09:01:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/the-tuxedo-cat/contact.html</loc>
+  <lastmod>2021-03-03T09:01:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/the-tuxedo-cat/credits.html</loc>
+  <lastmod>2021-03-03T09:01:02+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://skyeyang.ca/the-tuxedo-cat/index.html</loc>
+  <lastmod>2021-03-03T09:01:02+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+
+</urlset>
